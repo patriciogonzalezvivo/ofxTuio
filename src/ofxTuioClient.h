@@ -92,7 +92,7 @@ public:
 						ofNotifyEvent(objectUpdated, **tobj, this);
 					}
 				} else if( m.getArgAsString( 0 ) == "alive"  ){
-					if ((currentFrame<lastFrame) && (currentFrame>0)) return;
+					if ((currentFrame<lastFrame) && (currentFrame> 0)) return;
 					for (int i=1;i<m.getNumArgs();i++) {
 
 						long sid  = (long)(m.getArgAsInt32(i));;
