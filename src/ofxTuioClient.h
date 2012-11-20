@@ -36,10 +36,10 @@
 //#define PORT 3333
 
 //--------------------------------------------------------
-class myTuioClient{
+class ofxTuioClient{
 
 public:
-	myTuioClient(){
+	ofxTuioClient(){
 		currentFrame = lastFrame = maxFingerID = -1;
 	};
 
