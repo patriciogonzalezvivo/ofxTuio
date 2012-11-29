@@ -1,7 +1,6 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxKeyboard.h"
 #include "ofxTuio.h"
 
 class testApp : public ofBaseApp{
