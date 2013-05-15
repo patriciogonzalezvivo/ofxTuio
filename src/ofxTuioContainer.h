@@ -63,7 +63,7 @@ public:
 	virtual void update (ofxTuioContainer * _tuioContainer) {
 		ofxTuioPoint::update(_tuioContainer);
 		xspeed = _tuioContainer->getXSpeed();
-		yspeed = _tuioContainer->getXSpeed();
+		yspeed = _tuioContainer->getYSpeed();
 		motion_speed = _tuioContainer->getMotionSpeed();
 		motion_accel = _tuioContainer->getMotionAccel();
 	};
